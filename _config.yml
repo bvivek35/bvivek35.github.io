@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: coder nirvana
+title: Coder Nirvana
 email: bvivek35@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Where pragmatism crosses software engineering
+  Where Pragmatism Crosses Software Engineering
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bvivek35.github.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  bvivek35
@@ -26,27 +26,56 @@ disqus: "bvivek35-github-io"
 markdown: kramdown
 highlighter: rouge
 
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-mentions
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-default-layout
   - jekyll-feed
   - jemoji
 
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: America/Los_Angeles # Timezone for blog posts and alike
+
 
 remote_theme: daviddarnes/alembic
 
-paginate: 1 # jekyll-paginate > items per page
-paginate_path: /blog/page:num # jekyll-paginate > blog page
+# paginate: 1 # jekyll-paginate > items per page
+# paginate_path: /blog/page:num # jekyll-paginate > blog page
+
+author: Vivek Bharadwaj # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: Vivek Bharadwaj # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://www.facebook.com/vivekb8
+    - https://www.linkedin.com/in/bvivek35
+    - https://github.com/bvivek35
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  LinkedIn: https://www.linkedin.com/in/bvivek35
+  GitHub: https://github.com/bvivek35
+  link: https://about.me/vivek_b
+  RSS: /feed.xml
+
 
 navigation_header:
   Home: /
-  Elements: /elements/
   Blog: /blog/
   Categories: /categories/
   Search: /search/
@@ -56,5 +85,7 @@ navigation_footer:
   Created by Vivek Bharadwaj: https://bvivek35.github.io
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
-  Email: "bvivek35@gmail.com"
-
+  Email: ""
+  LinkedIn: "#0077B5"
+  facebook: "#3B5998"
+  Google+: "#DC4E41"
