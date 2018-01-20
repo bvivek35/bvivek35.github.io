@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bvivek35.github.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  bvivek35
+disqus: "bvivek35-github-io"
 
 # Build settings
 markdown: kramdown
@@ -30,7 +31,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-mentions
-  # - jekyll-paginate
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-default-layout
@@ -40,6 +41,8 @@ plugins:
 
 remote_theme: daviddarnes/alembic
 
+paginate: 1 # jekyll-paginate > items per page
+paginate_path: /blog/page:num # jekyll-paginate > blog page
 
 navigation_header:
   Home: /
