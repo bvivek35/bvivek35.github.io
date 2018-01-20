@@ -13,31 +13,45 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: coder nirvana
+email: bvivek35@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Where pragmatism crosses software engineering
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://bvivek35.github.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  bvivek35
 
 # Build settings
 markdown: kramdown
-theme: minima
+highlighter: rouge
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-mentions
+  # - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-default-layout
+  - jekyll-feed
+  - jemoji
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+remote_theme: daviddarnes/alembic
+
+
+navigation_header:
+  Home: /
+  Elements: /elements/
+  Blog: /blog/
+  Categories: /categories/
+  Search: /search/
+  About: /about/
+
+navigation_footer:
+  Created by Vivek Bharadwaj: https://bvivek35.github.io
+
+sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
+  Email: "bvivek35@gmail.com"
+
