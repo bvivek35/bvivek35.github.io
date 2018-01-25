@@ -8,16 +8,5 @@ permalink: /about/
 
 I am Vivek Bharadwaj!
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am a current Comp. Sci. Masters student at Univ. of Southern Calif. I will be writing about some techinical topics that pop to my head and share some of my experiences being a software engineer and student.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-{% include site-form.html %}
-
-[jekyll-organization]: https://github.com/jekyll
