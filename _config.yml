@@ -87,5 +87,7 @@ navigation_footer:
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
   Email: ""
   LinkedIn: "#0077B5"
+  Hacker News: "#ff6600"
+  Reddit: "#FF4500"
   facebook: "#3B5998"
   Google+: "#DC4E41"
