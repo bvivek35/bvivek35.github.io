@@ -10,7 +10,7 @@ aside: true
 I am Vivek Bharadwaj!
 
 I am a current Comp. Sci. Masters student at Univ. of Southern Calif. Being a full-time student, I live in Los Angeles. I will be writing about some techinical topics that pop to my head and share my experiences of being a software engineer and student.
-Check out some of my projects on [github][github-profile] and my thoughts on [this site][blog-page  -link].
+Check out some of my projects on [github][github-profile] and my thoughts on [this site][blog-page-link].
 
 Feel free to [hit me up][contact-me-page] and let me know your thoughts.
 
