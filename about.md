@@ -5,7 +5,7 @@ permalink: /about/
 aside: true
 ---
 
-![It's me]({{"/assets/site/profile.jpg" | absolute_url}}){:height="100px"}
+![It's me]({{"/assets/site/profile.jpg" | relative_url}}){:height="100px"}
 
 I am Vivek Bharadwaj!
 
