@@ -16,13 +16,13 @@
 title: Coding Memoirs
 email: bvivek35@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Where Pragmatism Crosses Software Engineering
+  Stories on Engineering Software Guided by Pragmatism
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bvivek35.github.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  bvivek35
 disqus: "bvivek35-github-io"
-avatarurl: "/favicon.ico"
-logo: "/assets/logo.jpeg"
+avatarurl: "/favicon.ico?v=1"
+logo: "/assets/site/logo.jpeg"
 
 # Build settings
 markdown: kramdown
@@ -42,7 +42,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-mentions
-  # - jekyll-paginate
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-default-layout
@@ -58,8 +58,8 @@ timezone: America/Los_Angeles # Timezone for blog posts and alike
 
 remote_theme: daviddarnes/alembic
 
-# paginate: 1 # jekyll-paginate > items per page
-# paginate_path: /blog/page:num # jekyll-paginate > blog page
+paginate: 3 # jekyll-paginate > items per page
+paginate_path: /blog/page:num # jekyll-paginate > blog page
 
 author: Vivek Bharadwaj # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
@@ -75,6 +75,11 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
   link: https://about.me/vivek_b
   RSS: /feed.xml
 
+collections:
+  posts:
+    title: Posts # Needed for Siteleaf
+    output: true
+    description: "My thoughts and stories" # The post list page content
 
 navigation_header:
   Home: /
@@ -85,7 +90,7 @@ navigation_header:
   Contact: /contact/
 
 navigation_footer:
-  Created by Vivek Bharadwaj: https://bvivek35.github.io
+  Created by Vivek Bharadwaj: /contact/
 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
   Email: ""

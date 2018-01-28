@@ -1,12 +1,16 @@
 ---
+title: Coding Memoirs
 layout: page
+feature_text: |
+  # Coding Memoirs
+feature_image: https://unsplash.it/1300/400?image=971
+aside: true
 ---
-{{site.description}}
 
-I am Vivek a current Comp. Sci. Masters student at Univ. of Southern Calif. I will be writing about some techinical topics that pop to my head and share some of my experiences being a software engineer and student.
+Welcome to Coding Memoirs, a personal site of Vivek Bharadwaj. I will be sharing my thoughts and experiences on this space. These will be centered around software engineering and some interesting (hopefully) topics that pop into my head.
 
-Check out some of my projects on [github][github-profile] and [reach out][contact-link] to me with your thoughts.
-Hopefully, this turns out well * fingers crossed *.
+Head over to the [Blog][blog-page-link] section to read my musings.
 
-[github-profile]: https://github.com/bvivek35
-[contact-link]: /contact/
+
+[blog-page-link]: {{'/blog/' | absolute_url}}
+[contact-link]: {{'/contact/' | absolute_url}}
