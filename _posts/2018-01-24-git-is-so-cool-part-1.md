@@ -54,11 +54,16 @@ Look at the below:
 * Pressed 's' to ask git to consider smaller hunks.
 * 'y' instructs git to add this hunk and 'n' not to.
 
-![git-add-p]({{"/assets/posts/2018-01-git-is-co-cool/git-add-p.jpeg" | absolute_url}}){:height="50px"}
+```plain
+git add -p
+```
+![git-add-p]({{"/assets/posts/2018-01-git-is-so-cool/git-add-p.jpeg" | absolute_url}}){:height="50px"}
 
-To show you changeset2 is yet to be staged (still marked red in git status), here's the output of git diff after staging changeset1
-
-![git-add-p]({{"/assets/posts/2018-01-git-is-co-cool/git-diff-after-staging-1.jpeg" | absolute_url}}){:height="50px"}
+To show you changeset2 is yet to be staged (still marked red in git status), here's the output of git diff after staging changeset1:
+```plain
+git diff ex.py
+```
+![git-add-p]({{"/assets/posts/2018-01-git-is-so-cool/git-diff-after-staging-1.jpeg" | absolute_url}}){:height="50px"}
 
 Hope this post eases your workflow. I will be sharing more interesting options that git has in the next few posts here on Coding Memoirs.
 Keep an eye out!
