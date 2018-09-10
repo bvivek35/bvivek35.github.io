@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How did I setup this website"
-date:   2018-01-21 22:19:41 -0800
+date:   2018-08-20 22:19:41 -0800
 categories: technical github-pages jekyll
 author: Vivek Bharadwaj
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git is so Cool Part-1"
-date:   2018-01-24 22:10:00  -0800
+date:   2018-08-24 22:10:00  -0800
 categories: technical git
 author: Vivek Bharadwaj
 ---

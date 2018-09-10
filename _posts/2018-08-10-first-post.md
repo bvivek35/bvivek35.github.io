@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Coding Memoirs"
-date:   2018-01-20 11:08:00 -0800
+date:   2018-08-10 11:08:00 -0800
 categories: post
 author: Vivek Bharadwaj
 ---

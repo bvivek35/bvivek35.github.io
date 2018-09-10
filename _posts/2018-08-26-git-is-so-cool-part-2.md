@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git is so Cool Part-2"
-date:   2018-01-26 22:10:00  -0800
+date:   2018-08-26 22:10:00  -0800
 categories: technical git
 author: Vivek Bharadwaj
 ---
@@ -57,4 +57,4 @@ Keep an eye out!
 
 Au Revoir
 
-[part-1-link]: https://bvivek35.github.io/technical/git/2018/01/24/git-is-so-cool-part-1/
+[part-1-link]: /2018/08/24/git-is-so-cool-part-1/
