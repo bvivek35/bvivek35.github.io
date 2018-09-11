@@ -35,7 +35,6 @@ We have got ourselves into a dilemma here. The regular Python interpreter runs i
 Use Python v3.5+
 
 ```python
-
 # Good Ol' fib
 def fib(n):
     if n == 0 or n == 1:
