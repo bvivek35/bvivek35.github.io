@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Memcached Internals Part-1 - Startup"
-date:   2018-11-11 17:45:00 -0800
+title:  "Memcached Internals Part-1 - Intro"
+date:   2018-10-15 17:45:00 -0800
 categories: technical memcached cache design
 author: Vivek Bharadwaj
 ---
