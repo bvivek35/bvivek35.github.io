@@ -8,7 +8,8 @@ author: Vivek Bharadwaj
 
 [Memcached][memcached-link] is a simple Key-Value ~~store~~ cache designed to be high performant and intended to augment a data store. In this series of posts, I will be talking about different aspects of this system. 
 
-This is part-2 of the series and deals with networking in Memcached.
+This is part-2 of the series and deals with networking in Memcached.  
+[Part-1][memcached-part-1] deals with Intro to Memcached.
 
 ##### Networking in Memcached
 
@@ -46,3 +47,4 @@ In the next post, I'll talk about issues when augmenting Memcached with a data s
 Au Revoir
 
 [memcached-link]: https://memcached.org/
+[memcached-part-1]: /2018/10/15/memcached-Intro/
