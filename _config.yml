@@ -23,6 +23,7 @@ github_username:  bvivek35
 disqus: "bvivek35-github-io"
 avatarurl: "/favicon.ico?v=1"
 logo: "/assets/site/logo.jpeg"
+google_analytics: "UA-129177637-1"
 
 # Build settings
 markdown: kramdown
